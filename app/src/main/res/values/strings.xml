@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Year 7 Field Trip</string>
+    <string name="title_activity_peak">Peak</string>
+    <string name="title_activity_soho">Soho</string>
+    <string name="title_activity_ifc">Ifc</string>
+    <string name="title_activity_peak_traffic">PeakTraffic</string>
+    <string name="title_activity_peak_ped">PeakPed</string>
+    <string name="title_activity_peak_eqs">PeakEqs</string>
+    <string name="title_activity_peak_noise">PeakNoise</string>
+    <string name="title_activity_peak_land">PeakLand</string>
+    <string name="title_activity_peak_survey">PeakSurvey</string>
+</resources>

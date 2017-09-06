@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.purupahuja.year7fieldtrip" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Peak"
+            android:label="@string/title_activity_peak"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.Peak" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Soho"
+            android:label="@string/title_activity_soho"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.Soho" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Ifc"
+            android:label="@string/title_activity_ifc"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.Ifc" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PeakTraffic"
+            android:label="@string/title_activity_peak_traffic"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.PeakTraffic" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PeakPed"
+            android:label="@string/title_activity_peak_ped"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.PeakPed" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PeakEqs"
+            android:label="@string/title_activity_peak_eqs"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.PeakEqs" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PeakNoise"
+            android:label="@string/title_activity_peak_noise"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.PeakNoise" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PeakLand"
+            android:label="@string/title_activity_peak_land"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.PeakLand" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PeakSurvey"
+            android:label="@string/title_activity_peak_survey"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.PeakSurvey" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SohoTraffic"
+            android:label="@string/title_activity_peak_survey"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.SohoTraffic" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SohoPed"
+            android:label="@string/title_activity_peak_survey"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.SohoPed" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity
+            android:name=".SohoNoise"
+            android:label="@string/title_activity_peak_survey"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.SohoNoise" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity
+            android:name=".SohoEqs"
+            android:label="@string/title_activity_peak_survey"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.SohoEqs" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity
+            android:name=".SohoLand"
+            android:label="@string/title_activity_peak_survey"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.SohoLand" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity
+            android:name=".SohoSurvey"
+            android:label="@string/title_activity_peak_survey"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.SohoSurvey" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity android:name=".IfcTraffic"
+
+            android:label="@string/title_activity_peak_survey"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.IfcTraffic" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity android:name=".IfcPed"
+
+            android:label="@string/title_activity_peak_survey"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.IfcPed" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity android:name=".IfcNoise"
+
+            android:label="@string/title_activity_peak_survey"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.IfcNoise" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity android:name=".IfcEqs"
+
+            android:label="@string/title_activity_peak_survey"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.IfcEqs" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity android:name=".IfcLand"
+
+            android:label="@string/title_activity_peak_survey"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.IfcLand" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity>
+        <activity android:name=".IfcSurvey"
+
+            android:label="@string/title_activity_peak_survey"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.purupahuja.year7fieldtrip.IfcSurvey" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            >
+        </activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_soho" tools:context="com.purupahuja.year7fieldtrip.Soho"
+    android:background="#d1a674">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="SoHo"
+            android:id="@+id/textView14"
+            android:textSize="70sp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView15" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView16" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="TRAFFIC COUNT"
+            android:id="@+id/button13"
+            android:textSize="18sp"
+            android:background="#325a85"
+            android:textColor="#ffffff"
+            android:onClick="sTraffic" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="PEDESTRIAN COUNT"
+            android:id="@+id/button14"
+            android:textSize="18sp"
+            android:background="#325a85"
+            android:textColor="#ffffff"
+            android:onClick="sPed" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="ENVIRONMENTAL QUALITY ANALYSIS"
+            android:id="@+id/button15"
+            android:textSize="18sp"
+            android:background="#325a85"
+            android:textColor="#ffffff"
+            android:onClick="sEqs" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="NOISE POLLUTION"
+            android:id="@+id/button16"
+            android:textSize="18sp"
+            android:background="#325a85"
+            android:textColor="#ffffff"
+            android:onClick="sNoise" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="LAND USE TALLY"
+            android:id="@+id/button17"
+            android:textSize="18sp"
+            android:background="#325a85"
+            android:textColor="#ffffff"
+            android:onClick="sLand" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="PEDESTRIAN SURVEY"
+            android:id="@+id/button18"
+            android:textSize="18sp"
+            android:background="#325a85"
+            android:textColor="#ffffff"
+            android:onClick="sSurvey" />
+
+    </LinearLayout>
+</RelativeLayout>
